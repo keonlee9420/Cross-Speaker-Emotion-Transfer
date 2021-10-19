@@ -1,0 +1,128 @@
+happy-strong-02-Actor_23|Actor_23|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-strong-01-Actor_23|Actor_23|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-normal-01-Actor_23|Actor_23|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+angry-normal-01-Actor_23|Actor_23|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-strong-02-Actor_23|Actor_23|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+fearful-normal-02-Actor_23|Actor_23|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-01-Actor_23|Actor_23|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+neutral-normal-02-Actor_23|Actor_23|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-strong-02-Actor_19|Actor_19|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+surprised-normal-01-Actor_19|Actor_19|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+happy-strong-01-Actor_19|Actor_19|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-normal-02-Actor_19|Actor_19|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+happy-normal-01-Actor_19|Actor_19|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-02-Actor_01|Actor_01|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+happy-normal-02-Actor_01|Actor_01|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+angry-normal-02-Actor_07|Actor_07|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+sad-strong-02-Actor_07|Actor_07|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+calm-normal-02-Actor_07|Actor_07|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+happy-normal-01-Actor_15|Actor_15|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-02-Actor_15|Actor_15|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+calm-normal-01-Actor_15|Actor_15|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-normal-02-Actor_15|Actor_15|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-normal-01-Actor_15|Actor_15|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-strong-01-Actor_15|Actor_15|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-normal-02-Actor_15|Actor_15|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+calm-strong-01-Actor_18|Actor_18|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-normal-02-Actor_18|Actor_18|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+neutral-normal-02-Actor_18|Actor_18|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+calm-normal-01-Actor_18|Actor_18|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-strong-01-Actor_18|Actor_18|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+angry-normal-01-Actor_18|Actor_18|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+sad-strong-02-Actor_18|Actor_18|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+neutral-normal-01-Actor_18|Actor_18|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-strong-02-Actor_18|Actor_18|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+angry-normal-01-Actor_05|Actor_05|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+disgust-normal-02-Actor_05|Actor_05|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-strong-01-Actor_05|Actor_05|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-strong-02-Actor_05|Actor_05|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+neutral-normal-02-Actor_05|Actor_05|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-normal-02-Actor_05|Actor_05|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+happy-strong-01-Actor_04|Actor_04|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+angry-normal-02-Actor_04|Actor_04|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-01-Actor_04|Actor_04|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+surprised-strong-02-Actor_04|Actor_04|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+sad-normal-01-Actor_04|Actor_04|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+neutral-normal-02-Actor_04|Actor_04|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-normal-01-Actor_04|Actor_04|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+disgust-strong-01-Actor_04|Actor_04|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-normal-01-Actor_04|Actor_04|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+calm-strong-02-Actor_11|Actor_11|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-normal-02-Actor_11|Actor_11|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+calm-normal-01-Actor_11|Actor_11|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+sad-strong-02-Actor_11|Actor_11|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-strong-02-Actor_06|Actor_06|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+happy-strong-02-Actor_06|Actor_06|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+sad-strong-02-Actor_06|Actor_06|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+calm-normal-01-Actor_06|Actor_06|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+disgust-strong-02-Actor_03|Actor_03|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-strong-02-Actor_03|Actor_03|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+happy-strong-02-Actor_03|Actor_03|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+happy-strong-01-Actor_03|Actor_03|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+sad-normal-01-Actor_03|Actor_03|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-strong-01-Actor_03|Actor_03|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-strong-02-Actor_03|Actor_03|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-strong-01-Actor_13|Actor_13|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+disgust-normal-01-Actor_13|Actor_13|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-strong-02-Actor_13|Actor_13|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-normal-02-Actor_08|Actor_08|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-normal-01-Actor_08|Actor_08|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-normal-02-Actor_08|Actor_08|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+happy-normal-01-Actor_08|Actor_08|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-normal-01-Actor_08|Actor_08|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-normal-01-Actor_08|Actor_08|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+sad-normal-01-Actor_08|Actor_08|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+sad-strong-01-Actor_08|Actor_08|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+happy-normal-02-Actor_08|Actor_08|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+sad-strong-02-Actor_17|Actor_17|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-normal-01-Actor_17|Actor_17|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+happy-normal-01-Actor_17|Actor_17|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-normal-02-Actor_17|Actor_17|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-strong-02-Actor_17|Actor_17|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+angry-normal-01-Actor_17|Actor_17|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+disgust-normal-01-Actor_17|Actor_17|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+neutral-normal-01-Actor_12|Actor_12|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+calm-strong-01-Actor_12|Actor_12|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+calm-normal-02-Actor_20|Actor_20|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-02-Actor_20|Actor_20|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+calm-normal-01-Actor_24|Actor_24|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+angry-normal-02-Actor_24|Actor_24|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+disgust-normal-02-Actor_24|Actor_24|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-strong-02-Actor_24|Actor_24|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-normal-02-Actor_24|Actor_24|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+sad-normal-02-Actor_24|Actor_24|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-strong-02-Actor_24|Actor_24|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-strong-01-Actor_24|Actor_24|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+calm-strong-01-Actor_22|Actor_22|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+sad-normal-02-Actor_22|Actor_22|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+neutral-normal-02-Actor_22|Actor_22|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-strong-01-Actor_14|Actor_14|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-01-Actor_09|Actor_09|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+sad-normal-01-Actor_09|Actor_09|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+calm-normal-01-Actor_09|Actor_09|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+fearful-strong-02-Actor_09|Actor_09|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+happy-normal-02-Actor_09|Actor_09|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+surprised-normal-02-Actor_09|Actor_09|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+fearful-normal-01-Actor_16|Actor_16|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+disgust-strong-01-Actor_16|Actor_16|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-normal-01-Actor_16|Actor_16|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+fearful-normal-02-Actor_16|Actor_16|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+calm-strong-02-Actor_16|Actor_16|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+happy-strong-01-Actor_16|Actor_16|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+happy-strong-01-Actor_10|Actor_10|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+angry-strong-02-Actor_10|Actor_10|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+calm-normal-01-Actor_10|Actor_10|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door
+fearful-strong-02-Actor_10|Actor_10|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+surprised-strong-02-Actor_21|Actor_21|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+disgust-normal-02-Actor_21|Actor_21|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-normal-01-Actor_21|Actor_21|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-normal-02-Actor_21|Actor_21|{D AO1 G Z ER0 S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+sad-normal-01-Actor_21|Actor_21|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-normal-02-Actor_21|Actor_21|{K IH1 D Z ER0 T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+angry-strong-02-Actor_21|Actor_21|{D AA1 G Z ER0 S IH1 T IH0 NG B AY1 DH AH1 D AO1 R}|dogs are sitting by the door
+surprised-strong-01-Actor_02|Actor_02|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+surprised-normal-02-Actor_02|Actor_02|{D AO1 G Z AA1 R S IH1 T IH0 NG B AY1 DH IY0 D AO1 R}|dogs are sitting by the door
+fearful-normal-02-Actor_02|Actor_02|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH1 D AO1 R}|kids are talking by the door
+disgust-strong-02-Actor_02|Actor_02|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH AH0 D AO1 R}|kids are talking by the door
+surprised-strong-02-Actor_02|Actor_02|{K IH1 D Z AA1 R T AO1 K IH0 NG B AY1 DH IY0 D AO1 R}|kids are talking by the door
+happy-strong-01-Actor_02|Actor_02|{D AA1 G Z AA1 R S IH1 T IH0 NG B AY1 DH AH0 D AO1 R}|dogs are sitting by the door

@@ -1,0 +1,38 @@
+external_speaker_dim: 512
+
+transformer:
+  encoder_layer: 1
+  encoder_head: 2
+  encoder_hidden: 64
+  duration_predictor_layer: 1
+  duration_predictor_head: 2
+  duration_predictor_hidden: 64
+  conv_filter_size: 256
+  conv_kernel_size: [9, 1]
+  lconv_kernel_size: 3
+  lconv_head: 4
+  encoder_dropout: 0.2
+  duration_predictor_dropout: 0.2
+
+emotion_token_layer:
+  ref_enc_filters: [32, 32, 64, 64, 128, 128]
+  ref_enc_size: [3, 3]
+  ref_enc_strides: [2, 2]
+  ref_enc_pad: [1, 1]
+  ref_enc_gru_size: 32
+  # num_heads: 1 # only support 1
+
+decoder:
+  decoder_layer: 6
+  decoder_head: 8
+  decoder_hidden: 64
+  conv_kernel_size: 15
+  decoder_dropout: 0.2
+
+multi_speaker: True
+
+max_seq_len: 320 # max sequence length of RAVDESS is 314
+
+vocoder:
+  model: "HiFi-GAN" # support 'HiFi-GAN', 'MelGAN'
+  speaker: "universal" # support  'LJSpeech', 'universal'
