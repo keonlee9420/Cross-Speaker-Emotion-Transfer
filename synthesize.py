@@ -176,6 +176,8 @@ if __name__ == "__main__":
         help="reference audio path to extract the speech style, for single-sentence mode only",
     )
     args = parser.parse_args()
+    assert args.emotion_id != None and args.ref_audio == None \
+        or args.emotion_id == None and args.ref_audio != None, "(Only) One of SOFT and HARD should be active at a time."
 
     # Check source texts
     if args.mode == "batch":

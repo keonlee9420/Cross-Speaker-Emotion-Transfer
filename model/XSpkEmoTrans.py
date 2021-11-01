@@ -67,7 +67,12 @@ class XSpkEmoTrans(nn.Module):
 
         emotion_embed_hard, emotion_embed_soft, score_hard, score_soft = self.emotion_emb(
             mels, emotions)
-        if emotion_embed_hard is not None:
+        if self.training:
+            # print("HARD emotion token")
+            output = output + emotion_embed_hard.expand(
+                -1, max_src_len, -1
+            )
+        elif emotion_embed_hard is not None:
             # print("HARD emotion token")
             output = output + emotion_embed_hard.expand(
                 -1, max_src_len, -1

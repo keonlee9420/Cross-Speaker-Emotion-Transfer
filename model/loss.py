@@ -18,6 +18,8 @@ class XSpkEmoTransLoss(nn.Module):
             mel_targets,
             _,
             _,
+            _,
+            _,
             duration_targets,
             *_,
         ) = inputs[6:]

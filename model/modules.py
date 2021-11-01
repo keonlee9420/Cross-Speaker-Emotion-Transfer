@@ -122,10 +122,12 @@ class GlobalEmotionToken(nn.Module):
     def forward(self, inputs, emotions):
         enc_out = None
         if inputs is not None:
-            assert emotions is None
+            if not self.training:
+                assert emotions is None
             enc_out = self.encoder(inputs)
         else:
-            assert emotions is not None
+            if not self.training:
+                assert emotions is not None
         emotion_embed_hard, emotion_embed_soft, score_hard, score_soft = self.etl(
             enc_out, emotions)
 
@@ -264,6 +266,7 @@ class StyleEmbedAttention(nn.Module):
         split_size = self.num_units // self.num_heads
         values = torch.stack(torch.split(values, split_size, dim=2), dim=0)
 
+        out_hard = out_soft = scores_soft = None
         if query is not None:
             querys = self.W_query(query)  # [N, T_q, num_units]
             keys = self.W_key(key_soft)  # [N, T_k, num_units]
@@ -285,7 +288,6 @@ class StyleEmbedAttention(nn.Module):
             out_soft = torch.matmul(scores_soft, values)
             out_soft = torch.cat(torch.split(out_soft, 1, dim=0), dim=3).squeeze(
                 0)  # [N, T_q, num_units]
-            out_hard = None
         if score_hard is not None:
             # [N, T_k] -> [h, N, T_q, T_k]
             score_hard = score_hard.unsqueeze(0).unsqueeze(2).repeat(
@@ -293,7 +295,6 @@ class StyleEmbedAttention(nn.Module):
             out_hard = torch.matmul(score_hard, values)
             out_hard = torch.cat(torch.split(out_hard, 1, dim=0), dim=3).squeeze(
                 0)  # [N, T_q, num_units]
-            out_soft = scores_soft = None
 
         return out_hard, out_soft, scores_soft
 
@@ -386,7 +387,7 @@ class DurationPredictor(nn.Module):
             out = layer(
                 out, mask=mask
             )
-        dur_out = self.linear_layer(out)
+        dur_out = self.linear_layer(out).squeeze(-1)
 
         return fused_out, dur_out, mask
 
