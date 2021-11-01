@@ -18,7 +18,7 @@ class XSpkEmoTrans(nn.Module):
 
         self.encoder = TextEncoder(model_config)
         self.emotion_emb = GlobalEmotionToken(preprocess_config, model_config)
-        self.duration_predictor = DurationPredictor(model_config)
+        self.duratin_predictor = DurationPredictor(model_config)
         self.upsampling = Upsampling()
         self.decoder = Decoder(preprocess_config, model_config)
 
@@ -85,7 +85,7 @@ class XSpkEmoTrans(nn.Module):
                 assert spker_embeds is not None, "Speaker embedding should not be None"
                 speaker_embed = self.speaker_emb(spker_embeds)
 
-        output, log_d_predictions, src_masks = self.duration_predictor(
+        output, log_d_predictions, src_masks = self.duratin_predictor(
             output, src_masks, speaker_embed)
 
         (
