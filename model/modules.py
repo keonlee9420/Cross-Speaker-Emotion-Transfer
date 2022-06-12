@@ -122,12 +122,7 @@ class GlobalEmotionToken(nn.Module):
     def forward(self, inputs, emotions):
         enc_out = None
         if inputs is not None:
-            if not self.training:
-                assert emotions is None
             enc_out = self.encoder(inputs)
-        else:
-            if not self.training:
-                assert emotions is not None
         emotion_embed_hard, emotion_embed_soft, score_hard, score_soft = self.etl(
             enc_out, emotions)
 
@@ -201,13 +196,18 @@ class ETL(nn.Module):
 
         E = model_config["transformer"]["encoder_hidden"]
         num_heads = 1  # model_config["emotion_token_layer"]["num_heads"]
-        with open(
-            os.path.join(
-                preprocess_config["path"]["preprocessed_path"], "emotions.json"
-            ),
-            "r",
-        ) as f:
-            token_num = len(json.load(f))
+        token_num = 1
+        emotion_dict_path = os.path.join(
+            preprocess_config["path"]["preprocessed_path"], "emotions.json"
+        )
+        if os.path.isfile(emotion_dict_path):
+            with open(
+                os.path.join(
+                    preprocess_config["path"]["preprocessed_path"], "emotions.json"
+                ),
+                "r",
+            ) as f:
+                token_num = len(json.load(f))
 
         self.token_num = token_num
         self.embed = nn.Parameter(torch.FloatTensor(
@@ -345,7 +345,7 @@ class DurationPredictor(nn.Module):
         )
         self.linear_layer = LinearNorm(d_model, 1)
 
-    def forward(self, x, mask, speaker_embed, return_attns=False):
+    def forward(self, x, mask, speaker_embed=None, return_attns=False):
 
         slf_attn_list = []
         batch_size, max_len = x.shape[0], x.shape[1]
@@ -380,9 +380,12 @@ class DurationPredictor(nn.Module):
 
         fused_out = out.clone()
 
-        out = out + residual + speaker_embed.unsqueeze(1).expand(
-            -1, max_len, -1
-        )
+        out = out + residual
+        if speaker_embed is not None:
+            out = out + speaker_embed.unsqueeze(1).expand(
+                -1, max_len, -1
+            )
+
         for layer in self.lconv_stack:
             out = layer(
                 out, mask=mask

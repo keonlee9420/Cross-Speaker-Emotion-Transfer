@@ -3,6 +3,7 @@ import os
 import json
 import argparse
 from string import punctuation
+from collections import defaultdict
 
 import torch
 import yaml
@@ -116,7 +117,7 @@ def synthesize(device, model, args, configs, vocoder, batchs):
         batch = to_device(batch, device)
         with torch.no_grad():
             # Forward
-            output = model(*batch[2:])
+            output = model(*batch[2:], inference=True)
             synth_samples(
                 batch,
                 output,
@@ -236,8 +237,11 @@ if __name__ == "__main__":
         # Emotion Info
         emotions = None
         if args.emotion_id is not None:
-            with open(os.path.join(preprocess_config["path"]["preprocessed_path"], "emotions.json")) as f:
-                emotions = np.array([json.load(f)[args.emotion_id]])
+            emotions = np.array([defaultdict(lambda:0)[args.emotion_id]])
+            emotion_dict_path = os.path.join(preprocess_config["path"]["preprocessed_path"], "emotions.json")
+            if os.path.isfile(emotion_dict_path):
+                with open(emotion_dict_path) as f:
+                    emotions = np.array([json.load(f)[args.emotion_id]])
         mels = mel_lens = None
         if args.ref_audio is not None:
             mels, mel_lens = get_audio(preprocess_config, args.ref_audio)

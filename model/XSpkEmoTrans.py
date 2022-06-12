@@ -22,26 +22,24 @@ class XSpkEmoTrans(nn.Module):
         self.upsampling = Upsampling()
         self.decoder = Decoder(preprocess_config, model_config)
 
-        self.speaker_emb = None
-        if model_config["multi_speaker"]:
-            self.embedder_type = preprocess_config["preprocessing"]["speaker_embedder"]
-            if self.embedder_type == "none":
-                with open(
-                    os.path.join(
-                        preprocess_config["path"]["preprocessed_path"], "speakers.json"
-                    ),
-                    "r",
-                ) as f:
-                    n_speaker = len(json.load(f))
-                self.speaker_emb = nn.Embedding(
-                    n_speaker,
-                    model_config["transformer"]["encoder_hidden"],
-                )
-            else:
-                self.speaker_emb = nn.Linear(
-                    model_config["external_speaker_dim"],
-                    model_config["transformer"]["encoder_hidden"],
-                )
+        self.embedder_type = preprocess_config["preprocessing"]["speaker_embedder"]
+        if self.embedder_type == "none":
+            with open(
+                os.path.join(
+                    preprocess_config["path"]["preprocessed_path"], "speakers.json"
+                ),
+                "r",
+            ) as f:
+                n_speaker = len(json.load(f))
+            self.speaker_emb = nn.Embedding(
+                n_speaker,
+                model_config["transformer"]["encoder_hidden"],
+            )
+        else:
+            self.speaker_emb = nn.Linear(
+                model_config["external_speaker_dim"],
+                model_config["transformer"]["encoder_hidden"],
+            )
 
     def forward(
         self,
@@ -55,6 +53,7 @@ class XSpkEmoTrans(nn.Module):
         spker_embeds=None,
         emotions=None,
         d_targets=None,
+        inference=False,
     ):
         src_masks = get_mask_from_lengths(src_lens, max_src_len)
         mel_masks = (
@@ -83,12 +82,11 @@ class XSpkEmoTrans(nn.Module):
                 -1, max_src_len, -1
             )
 
-        if self.speaker_emb is not None:
-            if self.embedder_type == "none":
-                speaker_embed = self.speaker_emb(speakers)
-            else:
-                assert spker_embeds is not None, "Speaker embedding should not be None"
-                speaker_embed = self.speaker_emb(spker_embeds)
+        if self.embedder_type == "none":
+            speaker_embed = self.speaker_emb(speakers)
+        else:
+            assert spker_embeds is not None, "Speaker embedding should not be None"
+            speaker_embed = self.speaker_emb(spker_embeds)
 
         output, log_d_predictions, src_masks = self.duratin_predictor(
             output, src_masks, speaker_embed)
@@ -101,8 +99,8 @@ class XSpkEmoTrans(nn.Module):
         ) = self.upsampling(
             output,
             log_d_predictions,
-            mel_masks if self.training else None,
-            max_mel_len if self.training else None,
+            mel_masks if not inference else None,
+            max_mel_len if not inference else None,
             d_targets,
         )
 

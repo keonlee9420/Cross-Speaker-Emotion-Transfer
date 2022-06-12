@@ -6,6 +6,9 @@ PyTorch Implementation of ByteDance's [Cross-speaker Emotion Transfer Based on S
     <img src="img/model.png" width="80%">
 </p>
 
+## Audio Samples
+Audio samples are available at [/demo](https://github.com/keonlee9420/Cross-Speaker-Emotion-Transfer/tree/main/demo).
+
 # Quickstart
 
 ***DATASET*** refers to the names of datasets such as `RAVDESS` in the following documents.

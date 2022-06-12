@@ -1,6 +1,7 @@
 import json
 import math
 import os
+from collections import defaultdict
 
 import numpy as np
 from torch.utils.data import Dataset
@@ -25,8 +26,13 @@ class Dataset(Dataset):
         )
         with open(os.path.join(self.preprocessed_path, "speakers.json")) as f:
             self.speaker_map = json.load(f)
-        with open(os.path.join(self.preprocessed_path, "emotions.json")) as f:
-            self.emotion_map = json.load(f)
+
+        self.emotion_map = defaultdict(lambda:0)
+        emotion_dict_path = os.path.join(self.preprocessed_path, "emotions.json")
+        if os.path.isfile(emotion_dict_path):
+            with open(emotion_dict_path) as f:
+                self.emotion_map = json.load(f)
+
         self.sort = sort
         self.drop_last = drop_last
 
@@ -157,8 +163,12 @@ class TextDataset(Dataset):
         )
         with open(os.path.join(self.preprocessed_path, "speakers.json")) as f:
             self.speaker_map = json.load(f)
-        with open(os.path.join(self.preprocessed_path, "emotions.json")) as f:
-            self.emotion_map = json.load(f)
+
+        self.emotion_map = defaultdict(lambda:0)
+        emotion_dict_path = os.path.join(self.preprocessed_path, "emotions.json")
+        if os.path.isfile(emotion_dict_path):
+            with open(emotion_dict_path) as f:
+                self.emotion_map = json.load(f)
 
     def __len__(self):
         return len(self.text)
